@@ -1,0 +1,36 @@
+.shop {
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  padding: 4px;
+  border-radius: 16px;
+  display: inline-block;
+}
+
+.shop-inner {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+}
+
+.shop-header img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.shop-header h3 {
+  color: blueviolet;
+  margin: 16px 0 8px;
+}
+
+.shop-body {
+  font-size: 20px;
+  color: blueviolet;
+  margin-bottom: 8px;
+
+}
+.shop-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
